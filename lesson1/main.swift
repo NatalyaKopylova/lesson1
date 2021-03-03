@@ -7,5 +7,21 @@
 
 import Foundation
 
-print("Hello, World!")
+var dreamTeam: [String] = [
+    "igor",
+    "vladimir",
+    "victor"
+    
+]
+print(dreamTeam[2])
 
+dreamTeam.insert("Leo", at: 0)
+print(dreamTeam)
+dreamTeam.removeAll()
+print(dreamTeam)
+
+var nameOfInteger: [String: Double] = [
+    "orange" : 34.67
+    "apple" : 45.89
+]
+print(priceList[""])
